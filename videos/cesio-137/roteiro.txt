@@ -1,0 +1,208 @@
+TRAGÉDIA ANUNCIADA — PILOTO
+CÉSIO-137: O BRILHO AZUL DE GOIÂNIA (1987)
+Duração alvo: ~24 min (~3.600 palavras)
+Fontes: Governo de Goiás/SES ("A Percepção dos Envolvidos", "História do Césio 137"), MPF (casos históricos), AIEA (The Radiological Accident in Goiânia, 1988, e boletim 30-4), Fiocruz (estudo de caso), Wikipedia (consolidação de datas e doses).
+Obs.: idades divergem entre fontes; o roteiro evita idades, exceto a de Leide (seis anos, unânime).
+
+=== CORTES PLANEJADOS ===
+C1 "aviso": abertura até o fim do aviso à Justiça (o prédio, o tribunal, o guarda que não apareceu).
+C2 "brilho": o brilho azul no ferro-velho e a festa em volta do pó.
+C3 "onibus": Maria Gabriela leva a peça de ônibus e o físico liga o medidor.
+C4 "estadio": cento e doze mil pessoas no estádio + o enterro.
+C5 "simbolo": por que ninguém entendeu o símbolo de radiação.
+
+=== BLOCO 1 — ABERTURA ===
+[serious] Em setembro de mil novecentos e oitenta e seis, alguém avisou a Justiça de Goiás de um problema bem específico.
+
+Num prédio abandonado, no centro de Goiânia, a poucos quarteirões de casas, escolas e lojas, tinha ficado para trás uma máquina de radioterapia. E dentro dela, uma fonte radioativa.
+
+[short pause] O aviso foi registrado. O prédio continuou de pé. A máquina continuou lá dentro.
+
+Um ano depois, dois homens entraram nesse prédio com ferramentas simples e um carrinho de mão. Eles não estavam procurando radiação. Estavam procurando chumbo para vender.
+
+O que eles levaram embora naquele dia ia contaminar duzentas e quarenta e nove pessoas, obrigar mais de cem mil a passar por exames dentro de um estádio, gerar milhares de metros cúbicos de lixo radioativo e matar quatro pessoas. Uma delas, uma menina de seis anos.
+
+[long pause] Esse é o maior acidente radiológico do mundo fora de uma usina nuclear. E ele não aconteceu de uma hora para outra. Ele foi anunciado. Várias vezes.
+
+[serious] Eu sou o Perito. Hoje, a gente vai reconstruir, passo a passo, a cadeia de erros que transformou uma peça do tamanho de uma lata de leite condensado na tragédia do césio-137.
+
+=== BLOCO 1 — CAPÍTULO 1: A MÁQUINA ESQUECIDA ===
+[thoughtful] Para entender Goiânia, a gente precisa começar com uma máquina que salvava vidas.
+
+Nos anos setenta, uma clínica particular, o Instituto Goiano de Radioterapia, comprou um aparelho de teleterapia. É uma máquina usada no tratamento de câncer: ela aponta um feixe de radiação para o tumor, para destruir as células doentes.
+
+O coração dessa máquina era uma cápsula de aço do tamanho de um punho fechado. Lá dentro, cerca de noventa e três gramas de cloreto de césio. Um pó parecido com sal. Só que feito com césio-137, um material altamente radioativo.
+
+Para proteger quem trabalhava perto, a cápsula ficava dentro de uma cabeça giratória cercada de chumbo e aço. Quando a máquina estava desligada, a fonte ficava virada para dentro da blindagem. Quando ligava, a cabeça girava e uma janelinha deixava o feixe sair na direção do paciente.
+
+[short pause] Ou seja: toda a segurança dependia de uma coisa só. A cápsula nunca sair dali.
+
+Em mil novecentos e oitenta e cinco, a clínica mudou de endereço. Levou os pacientes, os móveis, parte dos equipamentos. Mas a máquina de césio ficou para trás, no prédio antigo da Avenida Paranaíba, no centro da cidade.
+
+E aqui começa o primeiro aviso ignorado.
+
+[serious] Pelas regras da época, quem tinha uma fonte radioativa precisava comunicar a Comissão Nacional de Energia Nuclear, a CNEN, sobre qualquer mudança de endereço ou desativação do equipamento. Segundo o Ministério Público Federal, isso não foi feito.
+
+Ao mesmo tempo, o prédio entrou numa briga judicial. Os donos da clínica e a instituição dona do terreno disputavam o que fazer com o imóvel. E enquanto a briga corria, o prédio foi sendo demolido aos poucos, depredado, ocupado de vez em quando por quem passava por ali.
+
+Em setembro de mil novecentos e oitenta e seis, a Justiça foi informada de que havia material radioativo abandonado no local. Em maio de mil novecentos e oitenta e sete, a polícia chegou a ser chamada para impedir que um dos donos tirasse equipamentos de lá. O tribunal colocou um vigia no prédio. E a clínica escreveu para a CNEN dizendo que uma ordem judicial impedia a retirada da máquina.
+
+[short pause] Repara no que aconteceu: todo mundo sabia que a máquina estava lá. A clínica sabia. A Justiça sabia. A CNEN foi avisada por carta. Mas a máquina continuou no mesmo lugar, num prédio em ruínas, protegida por um vigia.
+
+[long pause] No dia treze de setembro de mil novecentos e oitenta e sete, um domingo, o vigia não apareceu para trabalhar.
+
+=== BLOCO 2 — CAPÍTULO 2: O BRILHO AZUL ===
+[serious] Naquele domingo, dois catadores, Roberto dos Santos Alves e Wagner Mota Pereira, entraram no prédio da Avenida Paranaíba.
+
+Eles tinham ouvido falar que ainda havia uma peça grande, pesada, cheia de chumbo, largada lá dentro. E chumbo vale dinheiro no ferro-velho.
+
+Com ferramentas simples, eles desmontaram parte da máquina e separaram a cabeça giratória, a parte que guardava a cápsula. Colocaram tudo num carrinho de mão e levaram para a casa de Roberto, a poucos quarteirões dali. Eram quase duzentos quilos de peças.
+
+[short pause] Naquela mesma noite, os dois começaram a passar mal. Tontura. Enjoo. Vômito.
+
+Eles acharam que tinha sido alguma coisa que comeram.
+
+No dia seguinte, Wagner piorou. Teve diarreia, e uma das mãos começou a inchar. Ele procurou atendimento médico e ouviu que era uma reação alimentar. Foi mandado para casa descansar.
+
+[thoughtful] Esse é um ponto que vai se repetir muitas vezes nessa história. A radiação não tem cheiro, não tem cor, não arde na hora. Os primeiros sintomas de uma dose alta, enjoo, vômito, diarreia, parecem os de uma intoxicação comum. E ninguém, nem os catadores, nem os médicos, tinha motivo para pensar em radiação no meio de Goiânia.
+
+Enquanto isso, Roberto continuou trabalhando na peça. Ele conseguiu soltar a cápsula da cabeça giratória. E, segundo o relatório da Agência Internacional de Energia Atômica, furou a janelinha da cápsula com uma chave de fenda.
+
+[long pause] Do furo, saiu um brilho azul.
+
+[mysterious] Um azul intenso, que aparecia melhor no escuro. Até hoje, os cientistas discutem a causa exata daquele brilho. Mas para quem estava ali, a explicação era outra: aquilo parecia valioso.
+
+No dia dezoito de setembro, Roberto vendeu as peças para um ferro-velho da Rua vinte e seis A. O dono se chamava Devair Alves Ferreira.
+
+E naquela noite, Devair viu o brilho.
+
+=== BLOCO 2 — A FESTA EM VOLTA DO PÓ ===
+[thoughtful] Devair ficou encantado. Achou que podia ser alguma coisa preciosa, talvez até sobrenatural. Ele levou a cápsula para dentro de casa.
+
+Nos dias seguintes, a casa virou ponto de visita. Parentes, vizinhos e amigos passavam para ver a pedra que brilhava no escuro. Uma pessoa levava a outra.
+
+[short pause] No dia vinte e um, um conhecido de Devair conseguiu tirar do cilindro alguns grãos do pó, do tamanho de grãos de arroz. O material começou a ser dividido. Gente levou um pouco para casa. Houve quem passasse o pó na pele, como se fosse purpurina.
+
+Devair ainda mostrou o achado para a esposa, Maria Gabriela Ferreira. E, nesse mesmo dia, ela começou a passar mal.
+
+No dia vinte e quatro, o irmão de Devair, Ivo Ferreira, levou um pouco do pó para a casa dele. A família estava almoçando. O pó ficou no chão, sobre a mesa, nas mãos de quem estava ali.
+
+[sad] A filha mais nova de Ivo se chamava Leide das Neves Ferreira. Ela tinha seis anos.
+
+Leide brincou com o pó brilhante. E, depois, comeu um pão com ovo com as mãos que tinham tocado nele.
+
+[long pause] Ela engoliu partículas de césio-137.
+
+[serious] Nesse ponto, o problema já não estava mais num prédio abandonado. Estava espalhado em pelo menos três casas e dois ferros-velhos, em roupas, em mãos, em pisos, em sacolas. E continuava se movendo.
+
+Funcionários de Devair mexeram em fragmentos da cápsula tentando tirar o chumbo que restava. Um pintor de automóveis chegou a se oferecer para cortar a peça com um maçarico. Ele saiu e não voltou para fazer o serviço.
+
+No dia vinte e cinco, Devair vendeu o chumbo para um terceiro ferro-velho, no setor Campinas. E a cápsula de aço foi junto.
+
+=== BLOCO 3 — CAPÍTULO 3: A MULHER QUE DESCONFIOU ===
+[thoughtful] No fim daquela semana, muita gente em volta do ferro-velho estava doente. Com vômito, diarreia, queimaduras que apareciam sem explicação, queda de cabelo.
+
+Os médicos que atendiam essas pessoas não conseguiam ligar os pontos. Alguns pensaram em alergia. Outros, em uma doença tropical, contagiosa.
+
+[serious] Quem ligou os pontos foi Maria Gabriela.
+
+Ela percebeu que todo mundo que estava passando mal tinha uma coisa em comum: tinha chegado perto daquele pó. Então, no dia vinte e oito de setembro, ela foi até o terceiro ferro-velho, pegou de volta a peça, colocou num saco e, junto com um funcionário do marido, pegou um ônibus.
+
+[short pause] Um ônibus comum, de linha, no meio da cidade. Com uma fonte radioativa dentro de um saco.
+
+O destino era a Vigilância Sanitária. Ela queria que alguém descobrisse o que era aquilo.
+
+Lá, a peça foi entregue a um veterinário que trabalhava no órgão. Ele estranhou o objeto e colocou o saco no pátio. E a cápsula ficou ali, sobre uma cadeira, por cerca de um dia.
+
+Enquanto isso, Maria Gabriela e outros doentes foram mandados para o Hospital de Doenças Tropicais. Lá, os médicos começaram a suspeitar de uma coisa nova: lesões de radiação.
+
+[thoughtful] A suspeita chegou a um físico que estava em Goiânia de férias. Ele tinha experiência com radiação e foi chamado para examinar o pacote da Vigilância Sanitária.
+
+Na manhã de vinte e nove de setembro, ele pegou emprestado um medidor de radiação, desses usados em pesquisa geológica. Ligou o aparelho ainda no caminho, perto do prédio da Vigilância.
+
+[long pause] O ponteiro disparou.
+
+O medidor mostrava radiação alta para qualquer lado que ele apontasse. O físico achou que o aparelho estava com defeito. Voltou, trocou por outro igual e retornou.
+
+O segundo medidor mostrou a mesma coisa.
+
+[serious] Os bombeiros foram chamados e chegaram a pensar em jogar a peça num rio. O físico convenceu todo mundo a se afastar. O prédio foi isolado pela polícia e pelos bombeiros.
+
+Perto do meio-dia, ele foi até o ferro-velho de Devair. Ali, a radiação passava do limite máximo que o aparelho conseguia medir.
+
+[long pause] Dezesseis dias depois do domingo em que o vigia não apareceu, Goiânia finalmente descobriu o que estava acontecendo.
+
+=== BLOCO 3 — CAPÍTULO 4: O ESTÁDIO ===
+[serious] A partir daquela tarde, tudo aconteceu muito rápido.
+
+A CNEN foi avisada. Os dez pacientes do hospital foram isolados. A Defesa Civil entrou em alerta. E o Estádio Olímpico de Goiânia foi transformado num centro de triagem.
+
+Na madrugada seguinte e ao longo do dia, duzentas e quarenta e nove pessoas foram registradas e lavadas com água, sabão e vinagre. Vinte e duas foram consideradas muito expostas e isoladas.
+
+E então veio o medo.
+
+[thoughtful] Nas semanas seguintes, mais de cento e doze mil pessoas passaram pelo estádio para medir se estavam contaminadas. Gente que tinha andado no mesmo ônibus. Gente que morava na mesma rua. Gente que só tinha passado perto. E gente que, simplesmente, estava com medo.
+
+Do lado de fora, outro problema começou: o preconceito. Há relatos de moradores de Goiânia recusados em hotéis de outras cidades, e de produtos de Goiás sendo evitados. Quem tinha sido contaminado passou a ser tratado como ameaça.
+
+[sad] Os casos mais graves foram transferidos para o Hospital Naval Marcílio Dias, no Rio de Janeiro.
+
+No dia vinte e três de outubro, morreram Leide das Neves Ferreira, de seis anos, e Maria Gabriela Ferreira, a mulher que tinha levado a peça para ser identificada.
+
+No dia vinte e sete, morreu Israel Batista dos Santos, um dos funcionários do ferro-velho. No dia vinte e oito, Admilson Alves de Souza, outro funcionário, de dezoito anos.
+
+[long pause] O enterro de Leide, em Goiânia, virou um retrato do medo daquela época. Ela foi enterrada num caixão de chumbo. E mais de duas mil pessoas foram ao cemitério protestar contra o sepultamento ali, com medo de que a radiação contaminasse a terra.
+
+[serious] Devair, que ficou dias ao lado da cápsula, sobreviveu ao acidente. Roberto, um dos catadores, teve parte do braço amputada. Dezenas de outras pessoas carregaram sequelas físicas e psicológicas pelo resto da vida.
+
+=== BLOCO 4 — CAPÍTULO 5: LIMPAR UMA CIDADE ===
+[thoughtful] Encontrar e retirar o césio virou uma operação enorme.
+
+Técnicos percorreram a cidade com detectores, a pé, de carro e até de helicóptero, procurando pontos de radiação. O que estava contaminado foi recolhido ou destruído. Houve casas demolidas. Camadas de solo foram raspadas. Até objetos que parecem banais entraram na lista: ônibus, carros, móveis, roupas, animais, e cinquenta mil rolos de papel higiênico.
+
+[short pause] No fim, o acidente gerou cerca de três mil e quinhentos metros cúbicos de lixo radioativo.
+
+Todo esse material foi colocado em contêineres concretados e levado para um depósito definitivo construído em Abadia de Goiás, a vinte e três quilômetros de Goiânia. E vai continuar lá por muito tempo: o césio-137 leva cerca de trinta anos para perder metade da sua radioatividade. São precisos séculos para ele deixar de ser perigoso.
+
+[serious] Mesmo com todo esse esforço, parte do césio nunca foi recuperada. Pelas contas da Agência Internacional de Energia Atômica, uma pequena fração da fonte original ficou espalhada no ambiente.
+
+=== BLOCO 4 — CAPÍTULO 6: A CADEIA DE ERROS ===
+[thoughtful] Agora, vamos fazer o que a gente faz aqui no canal. Voltar ao começo e olhar cada elo da corrente. Porque um desastre como esse não tem uma causa só. Ele tem uma sequência.
+
+[serious] Elo número um: a fonte foi abandonada. Uma máquina com material radioativo ficou para trás quando a clínica se mudou, sem que a CNEN fosse comunicada da desativação, segundo o Ministério Público Federal.
+
+Elo número dois: o abandono virou um problema de papel. Em vez de alguém retirar a fonte, o caso foi parar numa disputa judicial sobre o prédio. A Justiça soube. A CNEN recebeu carta. E a máquina ficou.
+
+Elo número três: a proteção era um vigia. Toda a barreira entre uma fonte capaz de matar e o resto da cidade era uma pessoa. No dia em que ela faltou, não havia mais nada.
+
+[short pause] Elo número quatro: ninguém entendeu o aviso que estava na própria máquina.
+
+O aparelho tinha o símbolo internacional de radiação, aquele trevo de três pás. Mas para quem nunca tinha visto aquilo, o trevo não dizia nada. Não dizia "perigo". Não dizia "fique longe". Não dizia "isso pode te matar".
+
+E esse problema não era só de Goiânia. Anos depois, a Agência Internacional de Energia Atômica e a Organização Internacional de Normalização lançaram um símbolo complementar, para ir nas fontes mais perigosas: ondas de radiação, uma caveira e uma pessoa correndo. Um aviso feito para qualquer pessoa entender, mesmo sem saber o que é radiação.
+
+[thoughtful] Elo número cinco: os sintomas foram confundidos. Os catadores, Maria Gabriela e outros doentes passaram por atendimentos médicos e ouviram diagnósticos de alergia, de intoxicação, de doença tropical. Não por descuido individual: radiação não estava no radar de ninguém. E cada dia sem diagnóstico foi mais um dia de contaminação.
+
+Elo número seis: o brilho. O que poderia ter sido um sinal de perigo virou um motivo para mostrar, dividir e espalhar.
+
+[long pause] Repara que nenhum desses elos, sozinho, mata alguém. A tragédia acontece quando todos se alinham. E em Goiânia, todos se alinharam em dezesseis dias.
+
+=== BLOCO 4 — CAPÍTULO 7: O QUE FICOU ===
+[thoughtful] Depois do acidente, o governo de Goiás criou, em fevereiro de mil novecentos e oitenta e oito, uma fundação para acompanhar as vítimas. Ela levou o nome de Leide das Neves Ferreira.
+
+Na Justiça, a responsabilização foi lenta e, para muitas vítimas, insuficiente. Em dois mil, a Justiça Federal condenou a CNEN e outros responsáveis a pagar indenizações e a manter o atendimento médico e psicológico das vítimas e de seus descendentes. Até hoje, sobreviventes e familiares relatam falta de assistência e o peso do preconceito.
+
+[serious] O acidente também mudou a forma como o Brasil e o mundo olham para fontes radioativas fora das usinas. O caso de Goiânia virou estudo obrigatório para quem trabalha com proteção radiológica. Ele mostrou que o perigo não está só no reator gigante. Está também na máquina pequena, esquecida, que ninguém vigia direito.
+
+[short pause] O terreno onde ficava a clínica hoje abriga o Centro de Convenções de Goiânia. E nas ruas onde o pó se espalhou, famílias voltaram a viver e a trabalhar.
+
+=== BLOCO 4 — FECHAMENTO ===
+[thoughtful] O césio-137 de Goiânia costuma ser lembrado como um acidente. Mas, olhando a sequência inteira, é difícil chamar de acaso.
+
+Houve um prédio em ruínas com uma fonte radioativa dentro. Houve um aviso à Justiça. Houve uma carta à CNEN. Houve um vigia que, um dia, não foi trabalhar. E houve uma cidade inteira que nunca tinha sido ensinada a reconhecer aquele perigo.
+
+[serious] A pergunta que fica é: quantas máquinas esquecidas existem hoje, em prédios que ninguém olha, esperando só um domingo em que ninguém aparece?
+
+Me conta nos comentários se você conhecia essa história, ou se alguém da sua família viveu aquela época em Goiás.
+
+[long pause] Eu sou o Perito. E aqui no Tragédia Anunciada, toda tragédia deu sinais antes. A gente mostra quais ninguém ouviu.
