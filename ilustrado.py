@@ -824,7 +824,7 @@ def boneco(c, t, x, y, s=1.0, poses=((0, "stand"),), exprs=((0, "neutral"),), lo
            pele="clara", cabelo="curto", cor_cabelo=None, barba=None, bigode=False, idade=0.0,
            chapeu=None, cor_chapeu=None, roupa="camisa", cor_roupa=(0.30, 0.40, 0.55), cor_calca=(0.28, 0.24, 0.20),
            cor_sapato=(0.16, 0.11, 0.08), camisa=(0.92, 0.90, 0.84), gravata=None, oculos=False, cinto=None,
-           capa=None, prop=None, fid=0, appear=None, alpha=1.0, andar=False, mulher=False, largura=1.0, olhos="normal"):
+           capa=None, prop=None, fid=0, appear=None, alpha=1.0, andar=False, mulher=False, largura=1.0, olhos="normal", avental=True):
     """
     Personagem ilustrado (chapado, sem contorno), pés em (x, y), altura ~470 px em s=1.
     poses / exprs: as mesmas do boneco de giz (stand, point_r, think, shocked...).
@@ -947,7 +947,7 @@ def boneco(c, t, x, y, s=1.0, poses=((0, "stand"),), exprs=((0, "neutral"),), lo
         else:
             c.new_sub_path(); c.arc(0, shy - 8, 20, 0, math.pi); rgb(c, shade(roupa_c, 0.25)); c.fill()
             c.rectangle(-80, -214, 160, 12); rgb(c, P(cinto or (0.55, 0.42, 0.26))); c.fill()
-            if roupa == "vestido":
+            if roupa == "vestido" and avental:
                 rr(c, -44, -200, 88, 170, 10); rgb(c, P((0.90, 0.87, 0.78))); c.fill()
     elif roupa == "jaqueta":
         c.rectangle(-4, shy, 8, hem - shy); rgb(c, shade(roupa_c, 0.3)); c.fill()
@@ -1175,6 +1175,13 @@ def _chapeu(c, t, kind, col, roupa_c, hcol):
         rr(c, -54, -34, 108, 22, 10); rgb(c, dk(col, 0.15)); c.fill()
     elif kind == "boina":
         ellipse(c, 6, -50, 60, 22); rgb(c, col); c.fill()
+    elif kind == "capacete":
+        # capacete de obra / perícia: casco arredondado, aba frontal, nervura central
+        c.move_to(-52, -34); c.curve_to(-56, -96, 56, -96, 52, -34); c.close_path(); rgb(c, col); c.fill()
+        c.move_to(-60, -34); c.line_to(64, -34); c.curve_to(70, -30, 70, -24, 62, -24); c.line_to(-60, -26)
+        c.close_path(); rgb(c, dk(col, 0.10)); c.fill()
+        rr(c, -7, -90, 14, 58, 6); rgb(c, lt(col, 0.10)); c.fill()
+        c.rectangle(-52, -44, 104, 6); rgb(c, dk(col, 0.22)); c.fill()
     elif kind == "solideu":
         c.move_to(-34, -44); c.curve_to(-30, -66, 30, -66, 34, -44); c.close_path(); rgb(c, col); c.fill()
     elif kind == "capuz":
@@ -1202,6 +1209,32 @@ def _chapeu(c, t, kind, col, roupa_c, hcol):
         c.rectangle(-4, -14, 8, 40); c.fill()
 
 
+def prancheta_i(c, t=0, s=0.9):
+    """prancheta com laudo; origem = mão"""
+    c.save(); c.scale(s, s); c.rotate(0.18)
+    rr(c, -34, 6, 68, 92, 5); rgb(c, P((0.46, 0.32, 0.20))); c.fill()
+    rr(c, -28, 16, 56, 76, 3); rgb(c, P((0.95, 0.94, 0.90))); c.fill()
+    rr(c, -14, 0, 28, 14, 3); rgb(c, P((0.62, 0.64, 0.68))); c.fill()
+    for i in range(6):
+        c.rectangle(-20, 30 + i * 10, 40 - (i % 3) * 8, 3); rgb(c, P((0.35, 0.36, 0.40))); c.fill()
+    c.restore()
+
+
+PERITO = dict(pele="media", cabelo="curto", cor_cabelo=(0.22, 0.18, 0.15), idade=0.35, chapeu="capacete",
+              cor_chapeu=(0.95, 0.94, 0.90), roupa="jaqueta", cor_roupa=(0.16, 0.22, 0.32), cor_calca=(0.20, 0.20, 0.22),
+              camisa=(0.86, 0.84, 0.78), oculos=True, barba="curta", fid=0)
+
+
+def perito_i(c, t, x, y, s=1.0, poses=((0, "stand"),), exprs=((0, "neutral"),), prancheta=True, **kw):
+    """O Perito (narrador do Tragédia Anunciada): capacete branco, jaqueta azul-marinho, óculos, barba curta,
+    prancheta na mão esquerda (some quando a mão sobe)."""
+    o = dict(PERITO)
+    o.update(kw)
+    if prancheta and "prop" not in kw:
+        o["prop"] = ("l", lambda c, tt: prancheta_i(c, tt, 0.85) if engine.pose_at(tt, list(poses))["lh"][1] > 40 else None)
+    boneco(c, t, x, y, s, poses=poses, exprs=exprs, **o)
+
+
 def historiador_i(c, t, x, y, s=1.0, poses=((0, "stand"),), exprs=((0, "neutral"),), lanterna=True, **kw):
     """O Historiador no estilo ilustrado: fedora, sobretudo, óculos redondos, barba curta e lanterna."""
     o = dict(HIST)
@@ -1226,6 +1259,13 @@ FIGURINO = dict(
     explorador=dict(roupa="camisa", cor_roupa=(0.76, 0.68, 0.50), cor_calca=(0.50, 0.42, 0.30), chapeu="explorador", cor_chapeu=(0.82, 0.76, 0.60), bigode=True),
     medico=dict(roupa="casaco", cor_roupa=(0.95, 0.94, 0.90), cabelo="curto", bigode=True, gravata=(0.15, 0.15, 0.2)),
     soldado=dict(roupa="armadura", cor_roupa=(0.58, 0.60, 0.64), chapeu="elmo", barba="curta"),
+    bombeiro=dict(roupa="jaqueta", cor_roupa=(0.62, 0.14, 0.10), cor_calca=(0.62, 0.14, 0.10), chapeu="capacete", cor_chapeu=(0.90, 0.72, 0.10), bigode=True),
+    operario=dict(roupa="camisa", cor_roupa=(0.30, 0.42, 0.58), cor_calca=(0.22, 0.26, 0.36), chapeu="capacete", cor_chapeu=(0.92, 0.70, 0.12)),
+    catador=dict(roupa="camisa", cor_roupa=(0.62, 0.56, 0.44), cor_calca=(0.30, 0.28, 0.26), chapeu="boina", cor_chapeu=(0.30, 0.30, 0.32)),
+    tecnico=dict(roupa="jaqueta", cor_roupa=(0.90, 0.90, 0.86), cor_calca=(0.90, 0.90, 0.86), chapeu="touca", cor_chapeu=(0.90, 0.90, 0.86), oculos=True),
+    policial=dict(roupa="jaqueta", cor_roupa=(0.24, 0.30, 0.24), cor_calca=(0.24, 0.30, 0.24), chapeu="quepe", cor_chapeu=(0.24, 0.30, 0.24)),
+    moderno=dict(roupa="camisa", cor_roupa=(0.55, 0.30, 0.26), cor_calca=(0.22, 0.28, 0.42)),
+    moderna=dict(roupa="vestido", cor_roupa=(0.40, 0.52, 0.62), cabelo="longo", mulher=True, avental=False, cinto=(0.30, 0.26, 0.24)),
     escriba=dict(roupa="tunica", cor_roupa=(0.86, 0.82, 0.70), chapeu="turbante", cor_chapeu=(0.92, 0.90, 0.84), pele="morena", barba="longa"),
 )
 
@@ -1237,6 +1277,8 @@ def figurantes(c, t, y=900, n=8, s=0.32, seed=1, x0=200, x1=1700, andando=True, 
     for i in range(n):
         fig = dict(FIGURINO[rnd.choice(figs)])
         fig["pele"] = rnd.choice(list(PELES))
+        if fig.get("mulher") and "camisa" in fig:
+            fig["camisa"] = fig["cor_roupa"]
         fig["cor_cabelo"] = rnd.choice(list(CABELOS)[:4])
         vel = rnd.uniform(30, 60) * rnd.choice([-1, 1]) if andando else 0
         x = x0 + ((rnd.uniform(0, 1) * (x1 - x0) + t * vel) % (x1 - x0))
