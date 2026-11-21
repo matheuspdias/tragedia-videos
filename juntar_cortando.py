@@ -20,8 +20,8 @@ import numpy as np
 import subprocess
 
 TAGS = {"serious", "thoughtful", "sad", "mysterious", "pause", "calm", "curious", "short", "long"}
-GAP_MAX = float(os.environ.get("GAP_MAX", 0.32))
-GAP_PAUSA = float(os.environ.get("GAP_PAUSA", 0.85))
+GAP_MAX = float(os.environ.get("GAP_MAX", 99))  # padrão: NÃO corta silêncios (o 1.2x já basta); GAP_MAX=0.32 liga o corte
+GAP_PAUSA = float(os.environ.get("GAP_PAUSA", 99))
 GAP_BLOCO = float(os.environ.get("GAP_BLOCO", 0.45))
 FADE = 0.012
 

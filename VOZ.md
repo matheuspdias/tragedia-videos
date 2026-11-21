@@ -15,3 +15,5 @@
 - Junte sempre com `juntar_cortando.py` (corta silêncios longos e recalcula os tempos das palavras).
 
 - O nome do narrador é **"o Investigador"** (o Matheus trocou de "Perito" porque soava como "Peto"). Frase de apresentação gerada à parte em `out/audio/investigador.wav` e encaixada com emenda no silêncio.
+
+- **Sem corte de silêncios** (decisão de nov/2026): a voz em 1.2x já sai com ~180 palavras/min; o corte só tirava ~2 s por vídeo e foi a origem dos estalos. `juntar_cortando.py` por padrão só junta os blocos (0,45 s entre eles) e gera `palavras.json`. Edição de áudio só quando necessária (troca de frase), sempre cortando onde a energia mostra silêncio real — os tempos do HeyGen vêm ~0,3 s adiantados.
