@@ -31,3 +31,6 @@ Fila de temas: `automacao/temas.md`.
 
 ## Calendário
 3 vídeos por semana: **terça, quinta e sábado às 19h** (horário de Brasília). Postando às 19h, o vídeo tem tempo de ser testado antes do pico de audiência (20h às 23h).
+
+## Formato
+Só documentários longos no YouTube, **sem cortes verticais/Shorts** (decisão do Matheus, nov/2026). Cortes, se um dia houver, vão só para o TikTok, separados.
