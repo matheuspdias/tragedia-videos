@@ -151,7 +151,7 @@ def s_maior(c, t, s):
     carimbo(c, t, s.w("ele foi anunciado"), "ANUNCIADO", 1300, 840, 70)
 
 
-@cena("Eu sou o Perito Hoje")
+@cena("Eu sou o Investigador Hoje")
 def s_titulo(c, t, s):
     cena_cidade(c, t, "crepusculo", seed=12)
     predio_ruina(c, t, 980, 880, 560, 380)
@@ -953,7 +953,7 @@ def s_comente(c, t, s):
     c.save(); c.translate(1150, 420); placa(c, "VOCÊ CONHECIA ESSA HISTÓRIA?", "COMENTE", size=44); c.restore()
 
 
-@cena("Eu sou o Perito E aqui no Tragédia")
+@cena("Eu sou o Investigador E aqui no Tragédia")
 def s_final(c, t, s):
     escuro(c, (0.05, 0.06, 0.08))
     rglow(c, 960, 480, 600, AZUL_CESIO, 0.10)
@@ -985,8 +985,8 @@ def _tt(frase):
     return PAL[_acha(frase)]["t"]
 
 
-SFX = [(_tt("ele foi anunciado"), "boom"), (_tt("eu sou o perito hoje"), "tum"), (_tt("o vigia não apareceu para"), "boom"),
+SFX = [(_tt("ele foi anunciado"), "boom"), (_tt("eu sou o investigador hoje"), "tum"), (_tt("o vigia não apareceu para"), "boom"),
        (_tt("do furo saiu"), "boom"), (_tt("ela engoliu"), "heartbeat"), (_tt("o ponteiro disparou"), "boom"),
        (_tt("e então veio o medo"), "heartbeat"), (_tt("no dia vinte e três de outubro"), "bell"),
        (_tt("elo número um"), "tum"), (_tt("elo número quatro"), "tum"), (_tt("dezesseis dias e"), "boom") if False else (_tt("todos se alinharam"), "boom"),
-       (_tt("é difícil chamar de acaso"), "tum"), (_tt("eu sou o perito e"), "boom")]
+       (_tt("é difícil chamar de acaso"), "tum"), (_tt("eu sou o investigador e"), "boom")]

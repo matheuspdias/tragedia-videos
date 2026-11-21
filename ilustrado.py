@@ -1226,7 +1226,7 @@ PERITO = dict(pele="media", cabelo="curto", cor_cabelo=(0.22, 0.18, 0.15), idade
 
 
 def perito_i(c, t, x, y, s=1.0, poses=((0, "stand"),), exprs=((0, "neutral"),), prancheta=True, **kw):
-    """O Perito (narrador do Tragédia Anunciada): capacete branco, jaqueta azul-marinho, óculos, barba curta,
+    """O Investigador (narrador do Tragédia Anunciada): capacete branco, jaqueta azul-marinho, óculos, barba curta,
     prancheta na mão esquerda (some quando a mão sobe)."""
     o = dict(PERITO)
     o.update(kw)

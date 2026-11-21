@@ -24,7 +24,7 @@ O que eles levaram embora naquele dia ia contaminar duzentas e quarenta e nove p
 
 [long pause] Esse é o maior acidente radiológico do mundo fora de uma usina nuclear. E ele não aconteceu de uma hora para outra. Ele foi anunciado. Várias vezes.
 
-[serious] Eu sou o Perito. Hoje, a gente vai reconstruir, passo a passo, a cadeia de erros que transformou uma peça do tamanho de uma lata de leite condensado na tragédia do césio-137.
+[serious] Eu sou o Investigador. Hoje, a gente vai reconstruir, passo a passo, a cadeia de erros que transformou uma peça do tamanho de uma lata de leite condensado na tragédia do césio-137.
 
 === BLOCO 1 — CAPÍTULO 1: A MÁQUINA ESQUECIDA ===
 [thoughtful] Para entender Goiânia, a gente precisa começar com uma máquina que salvava vidas.
@@ -205,4 +205,4 @@ Houve um prédio em ruínas com uma fonte radioativa dentro. Houve um aviso à J
 
 Me conta nos comentários se você conhecia essa história, ou se alguém da sua família viveu aquela época em Goiás.
 
-[long pause] Eu sou o Perito. E aqui no Tragédia Anunciada, toda tragédia deu sinais antes. A gente mostra quais ninguém ouviu.
+[long pause] Eu sou o Investigador. E aqui no Tragédia Anunciada, toda tragédia deu sinais antes. A gente mostra quais ninguém ouviu.

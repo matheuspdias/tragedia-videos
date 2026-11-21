@@ -1,6 +1,6 @@
 # tragedia-videos
 
-Motor de vídeos do canal **Tragédia Anunciada** (@tragedia.anunciada): documentários ilustrados de desastres reais, contados pela cadeia de erros que levou a cada um. Narrador fixo: **O Perito**.
+Motor de vídeos do canal **Tragédia Anunciada** (@tragedia.anunciada): documentários ilustrados de desastres reais, contados pela cadeia de erros que levou a cada um. Narrador fixo: **O Investigador** (função `perito_i`).
 
 Base: motor do Ponto Cego (`engine.py`, `ilustrado.py`, `render.py`, `cortes.py`, `capas.py`). O README do Ponto Cego (repo `pontocego-videos`) documenta todas as peças herdadas. Aqui fica o que é próprio do canal.
 
@@ -8,7 +8,7 @@ Base: motor do Ponto Cego (`engine.py`, `ilustrado.py`, `render.py`, `cortes.py`
 - **Narrador**: `perito_i(c, t, x, y, s, poses, exprs, look)` — capacete branco, jaqueta azul-marinho, óculos, barba curta, prancheta na mão esquerda. Em geral à esquerda (x≈330, pés em y≈1010).
 - **Voz**: ver `VOZ.md` (TA Perito B, HeyGen Voice, velocidade 1.2).
 - **Ritmo**: ~180 palavras/min, sem pausas longas (as referências do nicho no Brasil ficam entre 180 e 240). Só 2 ou 3 `[pause]` por vídeo, nos momentos de impacto.
-- **Estrutura do roteiro**: abertura com o aviso ignorado → capítulos → "A CADEIA DE ERROS" (elos numerados) → o que ficou → pergunta ao espectador → encerramento: "Eu sou o Perito. E aqui no Tragédia Anunciada, toda tragédia deu sinais antes. A gente mostra quais ninguém ouviu."
+- **Estrutura do roteiro**: abertura com o aviso ignorado → capítulos → "A CADEIA DE ERROS" (elos numerados) → o que ficou → pergunta ao espectador → encerramento: "Eu sou o Investigador. E aqui no Tragédia Anunciada, toda tragédia deu sinais antes. A gente mostra quais ninguém ouviu."
 - **Paleta "laudo"** (peças técnicas): fundo ardósia `LAUDO_BG`, traço `CREME`, destaque `AMBER`, alerta `ALERTA`.
 - **Cuidado com vítimas**: nada gráfico; mortes viram memorial (nomes, datas, vela). Fatos conferidos em fonte oficial; o que é ilustrativo é dito na tela (ex.: "MAPA ILUSTRATIVO").
 
