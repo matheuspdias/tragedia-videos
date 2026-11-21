@@ -28,7 +28,18 @@ def avatar(variante):
     g = cairo.RadialGradient(S / 2, S * 0.45, 0, S / 2, S / 2, S * 0.75)
     g.add_color_stop_rgb(0, 0.14, 0.19, 0.25); g.add_color_stop_rgb(1, 0.04, 0.05, 0.07)
     c.set_source(g); c.paint()
-    if variante == "A":  # o Investigador em close, com o brilho azul atrás
+    if variante == "C":  # o Investigador + selo "TA" no canto
+        rglow(c, S * 0.42, S * 0.42, S * 0.55, AZUL_CESIO, 0.22)
+        c.save(); c.translate(-520, -20)
+        thumb_close(c, 1.0, 960, 1720, 3.1, "confident", "stand", 0.0, quem=PER)
+        c.restore()
+        bx, by, r = S * 0.70, S * 0.62, 200  # triângulo dentro do círculo do YouTube
+        tri = [(bx, by - r), (bx + r * 0.95, by + r * 0.70), (bx - r * 0.95, by + r * 0.70)]
+        c.save(); c.translate(10, 14); pg(c, tri); rgb(c, (0, 0, 0), 0.45); c.fill(); c.restore()
+        pg(c, tri); rgb(c, CREME); c.fill()
+        pg(c, tri); c.set_line_width(30); c.set_line_join(1); rgb(c, ALERTA); c.stroke()
+        _t(c, "TA", bx, by + r * 0.52, 132, (0.10, 0.12, 0.15), font=SERIF, bold=True, centro=True)
+    elif variante == "A":  # o Investigador em close, com o brilho azul atrás
         rglow(c, S * 0.5, S * 0.42, S * 0.55, AZUL_CESIO, 0.22)
         c.save(); c.translate(-420, -20)
         thumb_close(c, 1.0, 960, 1720, 3.1, "confident", "stand", 0.0, quem=PER)
@@ -72,6 +83,6 @@ def banner():
 
 
 if __name__ == "__main__":
-    for v in ("A", "B"):
+    for v in ("A", "B", "C"):
         print(avatar(v))
     print(banner())
