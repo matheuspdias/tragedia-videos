@@ -28,3 +28,6 @@ Base: motor do Ponto Cego (`engine.py`, `ilustrado.py`, `render.py`, `cortes.py`
 6. Thumbnails: `videos/<slug>/thumb/thumb.py` (Perito em close via `thumb_close(..., quem=PER)`).
 
 Fila de temas: `automacao/temas.md`.
+
+## Calendário
+3 vídeos por semana: **terça, quinta e sábado às 19h** (horário de Brasília). Postando às 19h, o vídeo tem tempo de ser testado antes do pico de audiência (20h às 23h).
