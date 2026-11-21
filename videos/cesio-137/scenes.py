@@ -9,6 +9,7 @@ STYLE = "ilustrado"
 TOM = "normal"
 THEME = "cidade"
 SFX_OFF = True
+AMBIENCE = None  # sem cama de vento/grave: o Matheus ouviu como ruído de fundo
 
 _DIR = os.path.dirname(os.path.abspath(__file__))
 PAL = json.load(open(os.path.join(_DIR, "palavras.json")))
