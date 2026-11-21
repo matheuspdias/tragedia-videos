@@ -99,6 +99,8 @@ def placa_texto(c, x, y, linhas, w=300, col=(0.92, 0.90, 0.84), tinta=(0.15, 0.1
 # ---------------------------------------------------------------- a máquina e a cápsula
 def capsula(c, t, x, y, s=1.0, brilho=0.0, furada=False):
     """cápsula de aço (cilindro curto) com janela; brilho>0 acende o azul do césio"""
+    if s <= 0.01:
+        return
     c.save(); c.translate(x, y); c.scale(s, s)
     if brilho > 0:
         pulso = 1 + 0.08 * math.sin(t * 3.1)
@@ -134,6 +136,8 @@ def maquina_teleterapia(c, t, x, y, s=1.0, depth=0.0, desmontada=0.0):
 
 def trevo(c, x, y, r, amarelo=(0.98, 0.82, 0.10), preto=(0.10, 0.10, 0.10), fundo=True):
     """símbolo internacional de radiação (trevo de três pás)"""
+    if r <= 0.5:
+        return
     c.save(); c.translate(x, y)
     if fundo:
         c.arc(0, 0, r * 1.15, 0, 6.283); rgb(c, amarelo); c.fill()
@@ -149,6 +153,8 @@ def trevo(c, x, y, r, amarelo=(0.98, 0.82, 0.10), preto=(0.10, 0.10, 0.10), fund
 
 def simbolo_iso(c, x, y, s=1.0, a=1.0):
     """símbolo complementar (ISO 21482, 2007): triângulo vermelho com ondas, caveira e pessoa correndo"""
+    if s <= 0.01:
+        return
     c.save(); c.translate(x, y); c.scale(s, s)
     pg(c, [(0, -170), (190, 150), (-190, 150)]); rgb(c, (0.98, 0.96, 0.92), a); c.fill()
     pg(c, [(0, -170), (190, 150), (-190, 150)]); c.set_line_width(22); rgb(c, ALERTA, a); c.set_line_join(1); c.stroke()
@@ -375,7 +381,7 @@ def seta(c, x0, y0, x1, y1, p=1.0, col=CREME, w=5):
 def diagrama_cabeca(c, t, t0, x=960, y=540, s=1.0, girada=0.0, mostrar_furo=False):
     """corte da cabeça giratória: blindagem de chumbo, tambor que gira, cápsula, janela de saída do feixe"""
     c.save(); c.translate(x, y); c.scale(s, s)
-    p = ease_out(prog(t, t0, 0.8))
+    p = max(0.02, ease_out(prog(t, t0, 0.8)))
     ellipse(c, 0, 0, 260 * p, 260 * p); rgb(c, CHUMBO); c.fill()
     ellipse(c, 0, 0, 252 * p, 252 * p); rgb(c, (0.48, 0.50, 0.55)); c.fill()
     # janela (abertura para baixo)
@@ -471,7 +477,7 @@ def corrente(c, t, t0, n_quebrado=None, rotulos=(), x=960, y=560, ativos=6):
     xs = [x + (i - (n - 1) / 2) * gap for i in range(n)]
     for i, xx in enumerate(xs):
         pp = ease_out_back(prog(t, t0 + i * 0.15, 0.45))
-        if pp <= 0:
+        if pp <= 0.01:
             continue
         on = i < ativos
         c.save(); c.translate(xx, y); c.scale(pp, pp)
