@@ -34,3 +34,6 @@ Fila de temas: `automacao/temas.md`.
 
 ## Formato
 Só documentários longos no YouTube, **sem cortes verticais/Shorts** (decisão do Matheus, nov/2026). Cortes, se um dia houver, vão só para o TikTok, separados.
+
+## Padrão de entrega
+Sempre **2560x1440 (1440p), 30 fps**, qualidade máxima do motor (`render.py build`). É esse arquivo que vai para o YouTube; a versão comprimida 1080p é só para revisar no chat.
