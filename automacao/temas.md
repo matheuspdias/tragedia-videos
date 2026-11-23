@@ -46,4 +46,5 @@ Fora da fila por enquanto: aviação (dominada por Aviões e Músicas / Mentour 
 30. **Barragem St. Francis, Califórnia (1928)** — CP.
 
 ## Já feitos
-(vazio)
+- Césio-137, Goiânia (1987) — publicado sáb 21/11/2026 (piloto)
+- Edifício Joelma, SP (1974) — ter 24/11/2026 19h (kit novo: incendio.py)
