@@ -1,0 +1,20 @@
+name: credenciais
+# Testa o acesso ao canal do YouTube (não envia nada). Dispara ao mudar automacao/testar_credenciais.txt.
+on:
+  push:
+    paths: ['automacao/testar_credenciais.txt']
+  workflow_dispatch:
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q google-api-python-client google-auth
+      - env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          HEYGEN_API_KEY: ${{ secrets.HEYGEN_API_KEY }}
+        run: |
+          [ -n "$HEYGEN_API_KEY" ] && echo "HEYGEN_API_KEY: presente" || echo "HEYGEN_API_KEY: AUSENTE"
+          python automacao/publicar.py --testar-credenciais

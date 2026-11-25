@@ -1,5 +1,5 @@
 """
-Publicador automático do Ponto Cego (roda no GitHub Actions).
+Publicador automático do Tragédia Anunciada (herdado do Ponto Cego) (roda no GitHub Actions).
 
 Pega um vídeo da fila (fila/<slug>.json), baixa os blocos de narração do HeyGen,
 junta, renderiza e sobe no YouTube já agendado.
@@ -66,7 +66,9 @@ def baixar(url, destino, tentativas=4):
 
 
 def validar(m):
-    faltando = [k for k in ("slug", "publicar_em", "audio_blocos", "titulo", "descricao") if not m.get(k)]
+    faltando = [k for k in ("slug", "publicar_em", "titulo", "descricao") if not m.get(k)]
+    if not (m.get("audio_blocos") or m.get("audio_repo")):
+        faltando.append("audio_blocos ou audio_repo")
     if faltando:
         raise SystemExit(f"fila: faltam campos {faltando}")
     cenas = os.path.join(RAIZ, "videos", m["slug"], "scenes.py")
@@ -113,6 +115,9 @@ def produzir(m, cenas, audios_locais=None):
 
     if audios_locais:
         blocos = audios_locais
+    elif m.get("audio_repo"):
+        # Tragédia Anunciada: blocos gerados pela Action tts e guardados no repo (media/<slug>/bN.mp3)
+        blocos = [os.path.join(RAIZ, b) for b in m["audio_repo"]]
     else:
         blocos = []
         for i, url in enumerate(m["audio_blocos"], 1):
@@ -132,7 +137,12 @@ def produzir(m, cenas, audios_locais=None):
             raise SystemExit("a duração de um bloco não bate com a usada nas cenas: o vídeo sairia fora de sincronia")
 
     narracao = os.path.join(RAIZ, "out", f"{slug}_narracao.wav")
-    subprocess.run([sys.executable, os.path.join(RAIZ, "juntar_blocos.py"), narracao, *blocos], check=True, cwd=RAIZ)
+    if os.path.isdir(os.path.join(RAIZ, "videos", slug, "ts")):
+        # mesma junção usada para montar as cenas (palavras.json): os tempos batem exatamente
+        subprocess.run([sys.executable, os.path.join(RAIZ, "juntar_cortando.py"), os.path.join("videos", slug), narracao, *blocos],
+                       check=True, cwd=RAIZ)
+    else:
+        subprocess.run([sys.executable, os.path.join(RAIZ, "juntar_blocos.py"), narracao, *blocos], check=True, cwd=RAIZ)
 
     video = os.path.join(RAIZ, "out", f"{slug}.mp4")
     log("renderizando (pode levar de 15 a 40 min)")

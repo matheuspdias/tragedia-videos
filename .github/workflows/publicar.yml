@@ -72,8 +72,8 @@ jobs:
         if: always()
         run: |
           if [ -f out_log.txt ]; then tail -n 60 out_log.txt > fila/ultimo_log.txt; fi
-          git config user.name "pontocego-bot"
-          git config user.email "pontocego-bot@users.noreply.github.com"
+          git config user.name "tragedia-bot"
+          git config user.email "tragedia-bot@users.noreply.github.com"
           git add -A fila
           git diff --cached --quiet && exit 0
           git commit -m "Publicador: vídeo enviado ao YouTube [skip ci]"
