@@ -46,7 +46,7 @@ def main():
         os.makedirs(f'media/{slug}', exist_ok=True)
         os.makedirs(f'videos/{slug}/ts', exist_ok=True)
         falhou = False
-        for i, texto in enumerate(spec['blocos'], 1):
+        for i, texto in enumerate(spec['blocos'], spec.get('inicio', 1)):
             dest, ts = f'media/{slug}/b{i}.mp3', f'videos/{slug}/ts/bloco{i}.json'
             if os.path.exists(dest) and os.path.exists(ts):
                 continue
