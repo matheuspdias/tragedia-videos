@@ -48,3 +48,4 @@ Fora da fila por enquanto: aviação (dominada por Aviões e Músicas / Mentour 
 ## Já feitos
 - Césio-137, Goiânia (1987) — publicado sáb 21/11/2026 (piloto)
 - Edifício Joelma, SP (1974) — ter 24/11/2026 19h (kit novo: incendio.py)
+- Barragem de Fundão, Mariana (2015) — qui 26/11/2026 19h (kit novo: barragem.py)
