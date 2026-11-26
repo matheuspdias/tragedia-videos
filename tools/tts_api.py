@@ -50,6 +50,11 @@ def main():
             dest, ts = f'media/{slug}/b{i}.mp3', f'videos/{slug}/ts/bloco{i}.json'
             if os.path.exists(dest) and os.path.exists(ts):
                 continue
+            if os.path.exists(ts) and not os.path.exists(dest):
+                # já gerado antes: só baixa o áudio de novo (não gasta crédito)
+                urllib.request.urlretrieve(json.load(open(ts))['audio_url'], dest)
+                print('baixado', slug, i, flush=True)
+                continue
             try:
                 d = speech(spec['voice'], texto, spec.get('speed', 1.2))
                 for attempt in range(4):

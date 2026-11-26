@@ -2,3 +2,4 @@ out/
 *.wav
 *.mp3
 __pycache__/
+!media/**/*.mp3
